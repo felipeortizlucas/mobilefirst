@@ -271,7 +271,7 @@ main {
   line-height: 2.6rem;
   color: var(--just-white);
 }
-.main-product-detail p {
+.product-detail--title p {
   margin-bottom: 20px;
   font-size: 1.4rem;
   font-weight: 500;
