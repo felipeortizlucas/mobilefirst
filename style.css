@@ -152,7 +152,12 @@ main {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
+}
+.main-currency-table .title--orange {
   color: var(--bitcoin-orange);
+}
+.main-currency-table .title--blue {
+  color: var(--secundary-blue);
 }
 .currency-table--container {
   width: 90%;
@@ -202,4 +207,35 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.currency-table--container .up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url("/assets/icons/trending-up.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.currency-table--date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.date--orange {
+  background-color: var(--soft-orange);
+}
+.date--blue {
+  background-color: var(--soft-blue);
+}
+.currency-table--date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warn-black);
+  font-weight: 300;
 }
