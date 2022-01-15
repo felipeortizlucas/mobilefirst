@@ -36,6 +36,8 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
+  /*Agregando difuminado al header*/
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 header img {
   width: 150px;
@@ -52,4 +54,19 @@ header img {
   margin-top: 40px;
   text-align: center;
   align-self: center;
+}
+/*Coloreando el h1 osea el titulo*/
+.header--title-container h1 {
+  font-family: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+/*Coloreando el parrafo*/
+.header--title-container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
 }
